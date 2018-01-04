@@ -15,6 +15,8 @@
 		04FAB9831FFE622C007D4058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB9811FFE622C007D4058 /* LaunchScreen.storyboard */; };
 		04FAB98E1FFE622C007D4058 /* minoriPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB98D1FFE622C007D4058 /* minoriPhotoTests.swift */; };
 		04FAB9991FFE622C007D4058 /* minoriPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB9981FFE622C007D4058 /* minoriPhotoUITests.swift */; };
+		04FAB9A71FFE62E2007D4058 /* editPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB9A61FFE62E2007D4058 /* editPhotoViewController.swift */; };
+		04FAB9A91FFE630A007D4058 /* sharePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB9A81FFE630A007D4058 /* sharePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04FAB9941FFE622C007D4058 /* minoriPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minoriPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FAB9981FFE622C007D4058 /* minoriPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minoriPhotoUITests.swift; sourceTree = "<group>"; };
 		04FAB99A1FFE622C007D4058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FAB9A61FFE62E2007D4058 /* editPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPhotoViewController.swift; sourceTree = "<group>"; };
+		04FAB9A81FFE630A007D4058 /* sharePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				04FAB9811FFE622C007D4058 /* LaunchScreen.storyboard */,
 				04FAB9841FFE622C007D4058 /* Info.plist */,
 				04FAB97C1FFE622C007D4058 /* minoriPhoto.xcdatamodeld */,
+				04FAB9A61FFE62E2007D4058 /* editPhotoViewController.swift */,
+				04FAB9A81FFE630A007D4058 /* sharePhotoViewController.swift */,
 			);
 			path = minoriPhoto;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				04FAB97E1FFE622C007D4058 /* minoriPhoto.xcdatamodeld in Sources */,
 				04FAB9781FFE622C007D4058 /* ViewController.swift in Sources */,
+				04FAB9A91FFE630A007D4058 /* sharePhotoViewController.swift in Sources */,
 				04FAB9761FFE622C007D4058 /* AppDelegate.swift in Sources */,
+				04FAB9A71FFE62E2007D4058 /* editPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
